@@ -1,0 +1,31 @@
+# JARVIS Requirements
+# Combined requirements for both Frontend and Backend
+
+# Core AI and API libraries
+cohere>=4.37
+groq>=0.4.2
+huggingface-hub>=0.19.0
+
+# Web and search libraries
+requests>=2.31.0
+googlesearch-python>=1.2.3
+selenium>=4.18.1
+webdriver-manager>=4.0.1
+bs4>=4.12.0
+
+# GUI and multimedia
+PyQt5>=5.15.0
+pygame>=2.5.0
+pillow>=10.0.0
+edge-tts>=6.1.0
+
+# Text processing and utilities
+mtranslate>=1.8.0
+rich>=13.7.0
+keyboard>=0.13.5
+
+# System utilities
+AppOpener>=1.0.0
+pywhatkit>=5.4.0
+
+# Note: python-dotenv is no longer needed as we're using config.py
